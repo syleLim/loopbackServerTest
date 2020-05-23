@@ -1,0 +1,23 @@
+{
+  "name": "loopbackservertest",
+  "version": "1.0.0",
+  "description": "```bash npm install loopback-cli ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syleLim/loopbackServerTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syleLim/loopbackServerTest/issues"
+  },
+  "homepage": "https://github.com/syleLim/loopbackServerTest#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "loopback-cli": "^5.1.0"
+  }
+}
