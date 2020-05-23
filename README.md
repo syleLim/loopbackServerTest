@@ -16,3 +16,20 @@ lb4 app
 ? Select features to enable in the project Enable eslint, Enable, prettier, Enable mocha, Enable loopbackBuild, Enable vscode, Enable docker, Enable repositories, Enable services
 ```
 
+Make controller
+It is one of API
+```
+lb4 controller
+```
+
+or just typing in ./src/controller
+```typescript
+import { get } from '@loopback/rest';
+
+export class TestController {
+  @get("/test")
+  hello() : string {
+    return "test"
+  }
+}
+```
